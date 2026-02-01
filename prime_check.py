@@ -14,5 +14,5 @@ def cannot(x):
             return False
     return True
 
-number = cannot(44)    
+number = cannot(int(input()))   
 print(number)
