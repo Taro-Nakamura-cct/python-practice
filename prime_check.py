@@ -1,18 +1,17 @@
-import math
-def cannot(x):
-    if x == 1: 
-        return False
+def isPrime(x):
+    if x <= 1:
+      return False
     elif x == 2:
-        return True
+      return True
+    elif x%2 == 0:
+      return False
         
-    elif x % 2 ==0:
-        return False
-        
-    numbers = list(range(3,int(math.sqrt(x))+1,2))
-    for i in numbers:
+    i = 3
+    while i*i <= x:
         if x%i == 0:
             return False
+        i += 2
     return True
-
-number = cannot(int(input()))   
-print(number)
+    
+num = isPrime(int(input()))  
+print(num)
