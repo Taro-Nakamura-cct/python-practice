@@ -2,6 +2,4 @@
 
 ##　1.素数判定(`prime_check.py`)
 　　素数判定のプログラムです。input()により入力された値の素数判定を行います。
-　　これが使用した証明です。　(https://cloudlatex.io/projects/BQ73HsL7JNnmyx3KTHGvihL2)  　
-   
-　　
+　　これが使用した証明です。　(https://cloudlatex.io/projects/BQ73HsL7JNnmyx3KTHGvihL2)　　
