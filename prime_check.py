@@ -8,7 +8,7 @@ def is_Prime(x):
     if x%i == 0 or x%(i+2) == 0:
       return False
     i += 6
-    return True
+  return True
     
 user_input = input("整数を入力して下さい　").strip()
 if not user_input:
