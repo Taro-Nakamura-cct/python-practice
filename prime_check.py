@@ -1,13 +1,13 @@
 def is_Prime(x):
-  if x == 2:
+  if x == 2 or 3:
     return True
-  elif x <= 1 or x%2 == 0:
+  elif x <= 1 or x%2 == 0 or x%3 == 0:
     return False
-  i = 3
+  i = 5
   while i*i <= x:
-    if x%i == 0:
+    if x%i == 0 or x%(i+2) == 0:
       return False
-    i += 2
+    i += 6
     return True
     
 user_input = input("整数を入力して下さい　").strip()
